@@ -5,6 +5,10 @@ from dotenv import load_dotenv
 import smtplib, ssl
 import time
 
+"INSERT INTO events VALUES ('Tigers', 'Tiger City', '2077.10.14')"
+"SELECT * FROM events WHERE date='2077.10.15'"
+"DELETE FROM events WHERE band='Tigers'"
+
 load_dotenv()
 
 URL = "http://programmer100.pythonanywhere.com/tours/"
